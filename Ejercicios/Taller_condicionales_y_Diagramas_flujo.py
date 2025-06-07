@@ -233,20 +233,20 @@
 #     dic3["ciudad"] = "Bogotá"
 # print(f"Diccionario actualizado {dic3}")
 
-#24. Dado el diccionario {"producto": "pan", "precio": 1200}, verifica si la clave “precio” existe. Si existe, muestra su valor, si no, muestra “No hay precio”.
-print("\nMostrar valor de la clave precio")
-dicc4= {"producto": "pan", "precio": 1200}
-print(dicc4)
-if "precio" in dicc4:
-    print(f"Precio", dicc4["precio"])
-else:
-    print("No hay precio")
+# #24. Dado el diccionario {"producto": "pan", "precio": 1200}, verifica si la clave “precio” existe. Si existe, muestra su valor, si no, muestra “No hay precio”.
+# print("\nMostrar valor de la clave precio")
+# dicc4= {"producto": "pan", "precio": 1200}
+# print(dicc4)
+# if "precio" in dicc4:
+#     print(f"Precio", dicc4["precio"])
+# else:
+#     print("No hay precio")
 
-#25. Crea un diccionario con {"pan": 1200, "leche": 2000}. Si “pan” está en el diccionario, muestra su precio; si no, muestra “Producto no disponible”
-print("\nmostrar el precio del pan")
-factura= {"pan": 1200, "leche": 2000}
-print(factura)
-if "pan" in factura:
-    print(f"Precio del pan:",factura["pan"])
-else:
-    print("Producto no disponible")
+# #25. Crea un diccionario con {"pan": 1200, "leche": 2000}. Si “pan” está en el diccionario, muestra su precio; si no, muestra “Producto no disponible”
+# print("\nmostrar el precio del pan")
+# factura= {"pan": 1200, "leche": 2000}
+# print(factura)
+# if "pan" in factura:
+#     print(f"Precio del pan:",factura["pan"])
+# else:
+#     print("Producto no disponible")
